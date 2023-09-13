@@ -1,0 +1,13 @@
+* { 
+   box-sizing: border-box; 
+}
+
+header {
+  height: 600px;
+  background-color: #000000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}

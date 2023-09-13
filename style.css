@@ -2,14 +2,45 @@
    box-sizing: border-box; 
 }
 
+body {
+  font-family: Nunito;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto, 0;
+}
+
 header {
-  height: 600px;
   background-color: #000000;
 }
 
+.hero {
+  height: 100vh;
+  background-image: url("images/ice-cream-cones.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.welcome {
+  background-color: #7251B5;
+}
+
+.team {
+  background-color: #7251B5;
+}
+
+.favourites {
+  background-color: #000;
+}
+
 nav ul li a {
+  list-style: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #DEC9E9;
 }
 
 img.headshot {

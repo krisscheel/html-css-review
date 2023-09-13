@@ -17,6 +17,15 @@ header {
   background-color: #000000;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
 .hero {
   height: 100vh;
   background-image: url("images/ice-cream-cones.jpg");

@@ -23,18 +23,42 @@ header {
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
+  text-shadow: 2px 2px 2px grey;
+  font-size: 3rem;
+  font-family: 'Wix Madefor Display';
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome {
   background-color: #7251B5;
-}
-
-.team {
-  background-color: #7251B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 .favourites {
   background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.team {
+  background-color: #7251B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.teammate {
+  background-color: #6647A6;
+  border-radius: 15%;
 }
 
 nav ul li a {

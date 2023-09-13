@@ -11,3 +11,7 @@ nav ul li a {
   text-decoration: none;
   color: #ffffff;
 }
+
+img.headshot {
+  border-radius: 50%;
+}

@@ -1,5 +1,5 @@
 * { 
-   box-sizing: border-box; 
+  box-sizing: border-box; 
 }
 
 body {
@@ -19,14 +19,14 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 li {
   list-style-type: none;
 }
 
-.hero {
+#hero-banner {
   height: 100vh;
   background-image: url("images/ice-cream-cones.jpg");
   background-position: center; 
@@ -41,7 +41,7 @@ li {
   align-items: center;
 }
 
-.welcome {
+#intro {
   background-color: #7251B5;
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ li {
   text-align: left;
 }
 
-.favourites {
+#fan-fave {
   background-color: #000;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ li {
   text-align: left;
 }
 
-.team {
+#team {
   background-color: #7251B5;
   display: flex;
   justify-content: center;
@@ -76,6 +76,10 @@ nav ul li a {
   color: #DEC9E9;
 }
 
-img.headshot {
+img.profile-pic {
   border-radius: 50%;
+}
+
+footer {
+  color: #000000;
 }

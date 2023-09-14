@@ -7,31 +7,34 @@
   <title>HTML & CSS Review</title>
 
   <!-- link to stylesheet-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- links to Google Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header id="header">
-    <span id="company-name">Scoopalicious</span>
-    <nav role="navigation">
-      <ul class="wrapper">
-        <li><a href="Flavours">Flavours</a></li>
-        <li><a href="Locations">Locations</a></li>
-        <li><a href="Shoponline">Shop online</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <span id="company-name">Scoopalicious</span>
+      <nav role="navigation">
+        <ul>
+          <li><a href="Flavours">Flavours</a></li>
+          <li><a href="Locations">Locations</a></li>
+          <li><a href="Shoponline">Shop online</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
   <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
     <section id="hero-banner">
-      <h1>Scoopalicious</h1>
+      <div class="wrapper">
+        <h1>Scoopalicious</h1>
+      </div>
     </section>
 
     <section id="intro">
@@ -70,39 +73,44 @@
     </section>
 
     <section id="team">
-      <h2>Meet Our Team</h2>
-      <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
-      <div class="team-grid">
-        <article class="teammate">
-          <!-- Display the image: sophia-lee.jpg -->
-          <img src="images/sophia-lee.jpg" class="profile-pic" alt="profile pic of Sophia">
-          <h3>Sophia Lee</h3>
-          <p>Founder & Flavour Guru</p>
+      <div class="wrapper">
+        <h2>Meet Our Team</h2>
+        <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to
+          create and perfect the most delectable vegan desserts.</p>
+        <div class="team-grid">
+          <article>
+            <!-- Display the image: sophia-lee.jpg -->
+            <img src="images/sophia-lee.jpg" class="profile-pic" alt="profile pic of Sophia">
+            <h3>Sophia Lee</h3>
+            <p>Founder & Flavour Guru</p>
+          </article>
+          <article>
+            <!-- Display the image: henry-chen.jpg -->
+            <img src="images/henry-chen.jpg" class="profile-pic" alt="profile pic of Henry">
+            <h3>Henry Chen</h3>
+            <p>Master Scooper</p>
+          </article>
+          <article>
+            <!-- Display the image: olivia-parks.jpg -->
+            <img src="images/olivia-parks.jpg" class="profile-pic" alt="profile pic of Olivia">
+            <h3>Olivia Parks</h3>
+            <p>Vegan Dessert Chef</p>
+          </article>
+        </div>
+        <article>
+          <!-- Display the image: elijah-taylor.jpg -->
+          <img src="images/elijah-taylor.jpg" class="profile-pic" alt="profile pic of Elijah">
+          <h3>Elijah Taylor</h3>
+          <p>Flavour Innovator</p>
         </article>
-        <article class="teammate">
-          <!-- Display the image: henry-chen.jpg -->
-          <img src="images/henry-chen.jpg" class="profile-pic" alt="profile pic of Henry">
-          <h3>Henry Chen</h3>
-          <p>Master Scooper</p>
-        </article>
-        <article class="teammate">
-          <!-- Display the image: olivia-parks.jpg -->
-          <img src="images/olivia-parks.jpg" class="profile-pic" alt="profile pic of Olivia">
-          <h3>Olivia Parks</h3>
-          <p>Vegan Dessert Chef</p>
-        </article>
-      </div>     
-      <div class="teammate">
-        <!-- Display the image: elijah-taylor.jpg -->
-        <img src="images/elijah-taylor.jpg" class="profile-pic" alt="profile pic of Elijah">
-        <h3>Elijah Taylor</h3>
-        <p>Flavour Innovator</p>
-      </div> 
+      </div>
     </section>
   </main>
   
   <footer role="contentinfo">
-    <small>All rights reserved © 2023 Scoopalicious</small>
+    <div class="wrapper">
+      <small>All rights reserved © 2023 Scoopalicious</small>
+    </div>
   </footer>
 
 </body>
